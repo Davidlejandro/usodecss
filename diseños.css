@@ -5,7 +5,7 @@ body {
     color: brown;
 }
 
-/* todos los h1 que tengan nuestro html cambiaran de color y tambien usamos el font size para especificar la dimensión de la letra*/
+/* todos los h1 que tengan nuestro html cambiaran de color y también usamos el font size para especificar la dimensión de la letra*/
 h1 {
     color: red;
     font-size: 50px;
@@ -18,14 +18,14 @@ p {
     color: blue;
 }
 
-/*Uso de . mas una palabra para crear una clase la cual utilizaremos en nuestro archivo html*/
+/*Uso de . más una palabra para crear una clase la cual utilizaremos en nuestro archivo html*/
 .parrafo {
     color: black;
     font-size: 20px;
     text-align: left;
 }
 
-/*Uso de # mas una palabra para crear un id personal y irrepetible el cual utilizaremos en nuestro archivo html*/
+/*Uso de # más una palabra para crear un id personal e irrepetible el cual utilizaremos en nuestro archivo html*/
 #contenedor {
     color: green;
     font-size: 25px;
@@ -64,7 +64,7 @@ a {
     color: white;
 }
 
-/*Se le considera una pseudo-clase para referirnos a un estado especifico sobre nuestro archivo html*/
+/*Se le considera una pseudo-clase para referirnos a un estado específico sobre nuestro archivo html*/
 ul,
 a,
 li {
