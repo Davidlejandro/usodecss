@@ -1,61 +1,73 @@
 /*Usamos el margin top para establecer el margen sobre la parte superior de un elemento y el margin left para establecer el margen sobre la parte izquierda*/
-body{
-    margin-top:200px;
+body {
+    margin-top: 200px;
     margin-left: 100px;
     color: brown;
 }
+
 /* todos los h1 que tengan nuestro html cambiaran de color y tambien usamos el font size para especificar la dimensión de la letra*/
-h1{
+h1 {
     color: red;
     font-size: 50px;
 }
+
 /*El text/align nos ayudara a establecer la alineación horizontal de un texto, al ponerla a la derecha, izquierda o el centro */
-p{
+p {
     text-align: center;
     font-size: 15px;
     color: blue;
 }
+
 /*Uso de . mas una palabra para crear una clase la cual utilizaremos en nuestro archivo html*/
-.parrafo{
+.parrafo {
     color: black;
     font-size: 20px;
     text-align: left;
 }
+
 /*Uso de # mas una palabra para crear un id personal y irrepetible el cual utilizaremos en nuestro archivo html*/
-#contenedor{
+#contenedor {
     color: green;
     font-size: 25px;
     text-align: center;
 }
+
 /*estilos universales
 aplican a todos nuestros componentes de html*/
-*{
+* {
     margin: 10px;
     font-size: 15px;
     color: black;
     /*Se usa el elemento background-color para definir el color del fondo de algun elemento*/
     background-color: beige;
 }
+
 /*El atributo width establece la anchura de visualización de la imagen, y el atributo height establece la altura de visualización de la imagen.*/
-div{
+div {
     width: 100%;
     border: 1px solid;
 }
-.logo{
+
+.logo {
     width: 50%;
     border: 1px solid red;
 }
-.menu{
+
+.menu {
     width: 50%;
     border: 1px solid red;
 }
+
 /*Se utiliza el text-decoration para establecer el formato de nuestro texto sobre el subrayado, el dotted genera un subrayado de puntos*/
-a{
+a {
     text-decoration: dotted;
     color: white;
 }
+
 /*Se le considera una pseudo-clase para referirnos a un estado especifico sobre nuestro archivo html*/
-ul,a,li{
+ul,
+a,
+li {
     text-decoration: none;
     color: pink;
 }
