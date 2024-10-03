@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de CSS</title>
+    <link rel="stylesheet" href="diseños.css">
+</head>
+<body>
+      <!--Este es un comentario-->
+      <header>
+        <div class="logo">
+        <h1>Mi primera pagina web</h1>
+        </div>
+    </header>
+    <div id="contenedor">
+      <h2>Mi primera pagina web</h2>
+      <h3>Mi primera pagina web</h3>
+      <h4>Mi primera pagina web</h4>
+      <h5>Mi primera pagina web</h5>
+    </div>
+    <div class="menu">
+        <ul>
+            <a href=""><li>Inicio</li></a>
+            <a href=""><li>Nosotros</li></a>
+            <a href=""><li>Contacto</li></a>
+        </ul>
+    </div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique sint velit doloribus iure atque, dignissimos voluptas tenetur neque? Esse nulla pariatur quos cupiditate, a voluptates sunt quasi vero magnam error?
+      <!--El elemento P se utiliza para separar los párrafos y que no existan mesclas-->
+     <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi beatae placeat unde error esse mollitia quos eius officiis odit. Non, fugiat. Architecto consequatur reiciendis expedita ad sapiente debitis dignissimos accusamus?</p>
+      <!--EL elemento section se usa para crear una sección, style sirve para dar un estilo, border para bordear un elemento, 1px nos indica el tamaño del borde, y el color cambia la coloración del borde -->
+      <section >
+          <!--El elemento text-align nos permite mover el texto hacia donde le pidamos-->
+      <h1>Inicio del parrafo</h1>
+      <!--El elemento div se usa para crear una sección-->
+      <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsam eligendi veritatis, quae dolorum similique, fugit officiis mollitia quisquam laboriosam numquam voluptatibus praesentium doloremque, architecto delectus iure assumenda rem. Necessitatibus! </div>
+      </Sect>
+      <div>
+          Crear una seccion
+      </div>
+      <!--El elemento article se usa para crear una sección-->
+      <Div>
+          <h1>Enlaces
+              <!--El elemento a href nos permite enlazar con paginas-->
+              <a href="https://www.youtube.com/watch?v=Bf01riuiJWA&list=RDBf01riuiJWA&start_radio=1">Musica de youtube</a>
+          </h1>
+      </Div>
+      <div>
+          <h2>Imagenes</h2>
+              <!--El elemento img src nos permite colocar algún tipo de imagen, alt es usado cuando la imagen no esta disponible, width es el ancho de la imagen, higth es el alto de la imagen y el title es usado para darle un titulo a la imagen-->
+          <img src="Imagenes/pagina-web.webp" alt="Pagina web" width="50px" height="50px" title="foto">
+      </div>
+      <!--Creacion de una tabla-->
+      <Table border="1px">
+          <!--
+          <tr>
+              <td>Paises</td>
+              <td>Continetes</td>
+              <td>Poblacion</td>
+          </tr>
+          -->
+      <!--El thead se utiliza para los encabezados de columna de una tabla-->
+          <thead>
+      <!-- El th define una celda como encabezado de un grupo de celdas de tabla-->
+          <th>Paises</th>
+          <th>Continentes</th>
+          <th>Poblacion</th>
+      </thead>
+      <!-- el tr junto con el td se utilizan para definir si la informacion se colocara en forma de columna o de fila-->
+      <tr>
+          <td>Ecuador</td>
+          <td>Sur america</td>
+          <td>18 millones</td>
+      </tr>
+  <!--El tbody separa el término principal <table> en encabezado, cuerpo y pie de tabla-->
+      <tbody>
+          <tr>
+              <td>Mexico</td>
+              <td>Acapulco</td>
+              <td>20 millones</td>
+          </tr>
+          <tr>
+              <td>Estados unidos</td>
+              <td>Chicago</td>
+              <td>300 millones</td>
+          </tr>
+      </tbody>
+      </Table>
+      <div>
+          <h2>Lista desordenada</h2>
+          <!-- El ul se utiliza para crear una lista no ordenada-->
+          <ul>
+              <li>Ecuador</li>
+              <li>Colombia</li>
+              <li>Perú</li>
+              <li>Venezuela</li>
+              <li>Estados unidos</li>
+          </ul>
+          <h2>Lista ordenada</h2>
+          <!--El ol se utiliza para crear una lista ordenada-->
+          <ol>
+              <li>Ecuador</li>
+              <li>Colombia</li>
+              <li>Perú</li>
+              <li>España</li>
+              <li>Italia</li>
+          </ol>
+      </div>
+      <div>
+          <h1>Formulario</h1>
+          <!-- el form se usa para enviar informacio por parte del usuario a un sitio web-->
+           <!-- el method get o post se utiliza para definir el metodo por el cual se solicitar informacion-->
+          <form action="" method="get">
+          <!-- el label for se utiliza para etiquetar un elemento interactivo-->
+          <label for="nombre"> Ingrese el nombre</label>
+          <!-- inpput sirve para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.-->
+          <input type="text" id="nombre" placeholder="Ingrese el nombre" value="Ingrese el nombre" required>
+          <input type="submint">
+      </form>
+      </div>
+  
+</body>
+</html>
